@@ -1,0 +1,30 @@
+pre.code {
+	font-size: 12px;
+
+	padding: 2px;
+
+	border-style: solid;
+	border-width: 1px;
+	box-decoration-break: slice;
+
+	/* tab-size is now(4/13/2015) supported by
+	 * Chrome 21
+	 * Firefox 4.0(Gecko 2.0) with prefix "-moz"
+	 * Opera 10.60 with prefix "-o"
+	 * Safari Nightly build(537.1)
+	 * ecept Internet Explorer
+	 */
+	tab-size: 4;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+}
+
+pre.terminal {
+	font-size: 12px;
+
+	padding: 2px;
+
+	border-style: solid;
+	border-width: 1px;
+	box-decoration-break: slice;
+}
