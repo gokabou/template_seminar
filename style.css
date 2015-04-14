@@ -3,6 +3,8 @@ pre.code {
 
 	padding: 2px;
 
+	white-space: pre-wrap;
+
 	border-style: solid;
 	border-width: 1px;
 	box-decoration-break: slice;
@@ -23,6 +25,8 @@ pre.terminal {
 	font-size: 12px;
 
 	padding: 2px;
+
+	white-space: pre-wrap;
 
 	border-style: solid;
 	border-width: 1px;
